@@ -9,14 +9,101 @@ body{
 
 
 .top {
-    display: grid;
-    grid-template-columns: 1fr .5fr .5fr;
-    grid-gap: 5px;
-    height: 8vh;
     background-color: #FAE6EA;
     position: fixed;
-    width: 100vw;
     right: 0;
     left: 0;
     z-index: 999;
+}
+
+.icon8 {
+    width: 100vw;
+    height: 30vh;
+
+}
+
+.legs {
+    background-color: gold;
+    font-family: Comfortaa;
+    font-size: 20px;
+    color: black;
+}
+
+.abs {
+    background-color: gold;
+    font-family: Comfortaa;
+    font-size: 20px;
+    color: black;
+}
+
+.arms {
+    background-color: gold;
+    font-family: Comfortaa;
+    font-size: 20px;
+    color: black;
+}
+
+.booty {
+    background-color: gold;
+    font-family: Comfortaa;
+    font-size: 20px;
+    color: black;
+}
+
+.cardio {
+    background-color: gold;
+    font-family: Comfortaa;
+    font-size: 20px;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+   
+    font-size: 70px;
+    font-family: Rochester;
+    margin-top: -1vh;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-top: -5vh;
+}
+
+h2 {
+    font-family: rochester;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.intro {
+    background-color: powderblue;
+    border: #DAC1FF solid;
+    margin-top: 7vh;
+    padding: 10px;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    padding-top: 0vh;
+}
+
+h3 {
+    font-family: comfortaa;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    line-height: 5vh;
+    margin-top: -3vh;
+}
+
+.timeday {
+    background-color: purple;
+}
+
+.date {
+    background-color: firebrick;
 }

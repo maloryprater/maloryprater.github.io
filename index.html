@@ -12,6 +12,22 @@
 <link rel="coverpage" href="images/cover.jpg" />
 
 
+<script src="keys.js"></script>
+
+<script
+  src="https://unpkg.com/@warnick/forecast-js/js/forecast.min.js"
+  defer
+></script>
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/@warnick/forecast-js/css/forecast.css"
+/>
+
+<link
+  href="https://fonts.googleapis.com/css?family=Yatra+One&display=swap"
+  rel="stylesheet"
+/>
+
 
 
 
@@ -23,8 +39,51 @@
    
     <div class="top">
         <h1>FeminineFitness</h1>
-        
+     
        
-      </div>
+      
+      
+      <div class="links">
+        <a href="legs.html" class="legs">Legs</a>
+        <a href="abs.html" class="abs">Abs</a>
+        <a href="arms.html" class="arms">Arms</a>
+        <a href="booty.html" class="booty">Booty</a>
+        <a href="cardio.html" class="cardio">Cardio</a>
+  </div>
 
-      <img src="img/pinkpalms.jpg" class="icon8">
+      
+
+   
+<div class="intro">
+  <h2>Hello Gorgeous!</h2>
+  <h3>Welcome to Feminine Fitness, where achieving your fitness goals has never been easier. 
+    Take a look at our calendar down below for the link to our daily workouts, or customize 
+    your own with the links above by choosing what part of your body you’d like to work on. 
+    We can’t wait to work out with you!</h3>
+</div>
+</div>
+
+
+<div class="timeday">  
+  <p v-bind:class="time.day">{{time.day}}</p>
+</div>
+
+ <p class="date">{{time.date}}</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
