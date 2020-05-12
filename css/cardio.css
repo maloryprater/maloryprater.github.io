@@ -61,10 +61,11 @@ h1 {
 }
 
 .palms {
-    height: 100%;
-    margin-top: 12vh;
+    height: 15vh;
+    margin-top: 8vh;
     width: 100vw;
     opacity: 60%;
+    position: fixed;
 }
 
 .top {
