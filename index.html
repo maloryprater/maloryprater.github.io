@@ -12,34 +12,44 @@
 <link rel="coverpage" href="images/cover.jpg" />
 
 
-<script src="keys.js"></script>
-
-<script
-  src="https://unpkg.com/@warnick/forecast-js/js/forecast.min.js"
-  defer
-></script>
-<link
-  rel="stylesheet"
-  href="https://unpkg.com/@warnick/forecast-js/css/forecast.css"
-/>
-
-<link
-  href="https://fonts.googleapis.com/css?family=Yatra+One&display=swap"
-  rel="stylesheet"
-/>
 
 
 
-
-<link rel="stylesheet" href="style.css">
-
+<link href="https://font.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/menu.css">
 </head>
+
 <body>
 
+  <div class="menu-wrap">
+    <input type="checkbox" class="toggler">
+    <div class="hamburger"><div></div></div>
+    <div class="menu">
+        <div>
+            <div>
+                <ul>
+                    <li><a href="index.html" class="home">Home</a></li>
+                    <li><a href="abs.html" class="abs">Abs</a></li>
+                    <li><a href="legs.html" class="legs">Legs</a></li>
+                    <li><a href="arms.html" class="arms">Arms</a></li>
+                    <li><a href="booty.html" class="booty">Booty</a></li>
+                    <li><a href="cardio.html" class="cardio">Cardio</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
    
-    <div class="top">
-        <h1>FeminineFitness</h1>
+    <body class="top">
+      <h1>FeminineFitness</h1>
+      
+      
+      <div class="palms">
+        <div style="background-image: url('img/pinkpalms.jpeg');" class="palms"></div>
+        </div>
      
+        
        
       
       
@@ -56,20 +66,209 @@
    
 <div class="intro">
   <h2>Hello Gorgeous!</h2>
-  <h3>Welcome to Feminine Fitness, where achieving your fitness goals has never been easier. 
-    Take a look at our calendar down below for the link to our daily workouts, or customize 
-    your own with the links above by choosing what part of your body you’d like to work on. 
-    We can’t wait to work out with you!</h3>
+  <h3>Welcome to Feminine Fitness, where achieving your fitness goals has never been easier. Take a peek at our printable fitness calendars below, keeping you on track and looking your best every month of the year! Or, check out our customized workouts by clicking the links above. Whatever you choose, we can't wait to work out with you! </h3>
 </div>
+     
+
+
+
+<section class="carousel" aria-label="Gallery">
+  <ol class="carousel__viewport">
+   
+   
+    <li id="carousel__slide1"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="may">
+        <img src="img/may.jpg">
+      </div>
+      <div class="carousel__snapper">
+        <a href="#carousel__slide4"
+           class="carousel__prev">Go to last slide</a>
+        <a href="#carousel__slide2"
+           class="carousel__next">Go to next slide</a>
+      </div>
+    </li>
+   
+   
+    <li id="carousel__slide2"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="june">
+        <img src="img/june.jpg">
+      </div>
+      <div class="carousel__snapper"></div>
+      <a href="#carousel__slide1"
+         class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide3"
+         class="carousel__next">Go to next slide</a>
+    </li>
+   
+   
+    <li id="carousel__slide3"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="july">
+        <img src="img/july.jpg">
+      </div>
+      <div class="carousel__snapper"></div>
+      <a href="#carousel__slide2"
+         class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide4"
+         class="carousel__next">Go to next slide</a>
+    </li>
+   
+   
+    <li id="carousel__slide4"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="august">
+        <img src="img/august.jpg">
+      </div> 
+      <div class="carousel__snapper"></div>
+      <a href="#carousel__slide3"
+         class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide1"
+         class="carousel__next">Go to first slide</a>
+    </li>
+    
+    
+    <li id="carousel__slide5"
+    tabindex="0"
+    class="carousel__slide">
+  <div class="september">
+    <img src="img/september.jpg">
+  </div>
+  <div class="carousel__snapper"></div>
+  <a href="#carousel__slide2"
+     class="carousel__prev">Go to previous slide</a>
+  <a href="#carousel__slide4"
+     class="carousel__next">Go to next slide</a>
+
+
+    </li>
+<li id="carousel__slide6"
+tabindex="0"
+class="carousel__slide">
+<div class="october">
+<img src="img/october.jpg">
 </div>
+<div class="carousel__snapper"></div>
+<a href="#carousel__slide2"
+ class="carousel__prev">Go to previous slide</a>
+<a href="#carousel__slide4"
+ class="carousel__next">Go to next slide</a>
+</li>
 
 
-<div class="timeday">  
-  <p v-bind:class="time.day">{{time.day}}</p>
+<li id="carousel__slide7"
+tabindex="0"
+class="carousel__slide">
+<div class="november">
+<img src="img/november.jpg">
 </div>
+<div class="carousel__snapper"></div>
+<a href="#carousel__slide2"
+ class="carousel__prev">Go to previous slide</a>
+<a href="#carousel__slide4"
+ class="carousel__next">Go to next slide</a>
+</li>
 
- <p class="date">{{time.date}}</p>
 
+<li id="carousel__slide8"
+tabindex="0"
+class="carousel__slide">
+<div class="december">
+<img src="img/december.jpg">
+</div>
+<div class="carousel__snapper"></div>
+<a href="#carousel__slide2"
+ class="carousel__prev">Go to previous slide</a>
+<a href="#carousel__slide4"
+ class="carousel__next">Go to next slide</a>
+</li>
+
+
+<li id="carousel__slide9"
+tabindex="0"
+class="carousel__slide">
+<div class="january">
+<img src="img/january.jpg">
+</div>
+<div class="carousel__snapper"></div>
+<a href="#carousel__slide2"
+ class="carousel__prev">Go to previous slide</a>
+<a href="#carousel__slide4"
+ class="carousel__next">Go to next slide</a>
+</li>
+
+
+<li id="carousel__slide10"
+tabindex="0"
+class="carousel__slide">
+<div class="february">
+<img src="img/february.jpg">
+</div>
+<div class="carousel__snapper"></div>
+<a href="#carousel__slide2"
+ class="carousel__prev">Go to previous slide</a>
+<a href="#carousel__slide4"
+ class="carousel__next">Go to next slide</a>
+</li>
+
+
+<li id="carousel__slide11"
+tabindex="0"
+class="carousel__slide">
+<div class="march">
+<img src="img/march.jpg">
+</div>
+<div class="carousel__snapper"></div>
+<a href="#carousel__slide2"
+ class="carousel__prev">Go to previous slide</a>
+<a href="#carousel__slide4"
+ class="carousel__next">Go to next slide</a>
+</li>
+
+
+<li id="carousel__slide12"
+tabindex="0"
+class="carousel__slide">
+<div class="april">
+<img src="img/april.jpg">
+</div>
+<div class="carousel__snapper"></div>
+<a href="#carousel__slide2"
+ class="carousel__prev">Go to previous slide</a>
+<a href="#carousel__slide4"
+ class="carousel__next">Go to next slide</a>
+</li>
+  
+
+
+
+</ol>
+  <aside class="carousel__navigation">
+    <ol class="carousel__navigation-list">
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide1"
+           class="carousel__navigation-button">Go to slide 1</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide2"
+           class="carousel__navigation-button">Go to slide 2</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide3"
+           class="carousel__navigation-button">Go to slide 3</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide4"
+           class="carousel__navigation-button">Go to slide 4</a>
+      </li>
+    </ol>
+  </aside>
+</section>
 
 
 
