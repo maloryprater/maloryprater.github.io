@@ -1,18 +1,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 h1 {
     font-family: rochester;
     font-size: 70px;
@@ -127,12 +115,7 @@ a:after {
     padding: 0;
   }
   
-  img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    background-color: blue;
-  }
+
   
   .tns-outer{
     position: relative;
@@ -259,3 +242,593 @@ a:after {
 
 }
 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------- SMART PHONES ----------- */
+ 
+ 
+  @media only screen and (max-width: 800px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    h1 {
+      font-family: rochester;
+      font-size: 70px;
+      text-align: center;
+      position: fixed;
+      margin-top: -25vh;
+      margin-left: 40vw;
+      opacity: 100%;
+      color: black;
+  }
+  
+  .palms {
+      height: 15vh;
+      margin-top: -13vh;
+      width: 100vw;
+      opacity: 60%;
+      position: fixed;
+  }
+  
+  .top {
+      height: 20vh;
+      margin-top: 25vh;
+  }
+  
+  .links {
+      display: grid; 
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      padding: 2vw;
+      grid-gap: -5px;
+      margin-top: -33vh;
+      text-align: center;
+      position: fixed;
+      width: 100vw;
+  }
+  
+  .legs {
+      color: black;
+  }
+  
+  .abs {
+      color: black;
+  }
+  
+  .arms {
+      color: black;
+  }
+  
+  .booty {
+      color: black;
+  }
+  
+  .cardio {
+      color: black;
+  }
+  
+  h2 {
+      text-align: center;
+      font-family: rochester;
+      font-size: 46px;
+      height: 50vh;
+      padding-top: 3vh;
+      width: 60%;
+      margin-left: 20%;
+      margin-top: -15vh;
+      background-color: #FCF2F4;
+  }
+  
+  h3 {
+      text-align: center;
+      margin-top: -45vh;
+      width: 60%;
+      margin-left: 20%;
+      line-height: 4vh;
+      margin-bottom: -9vh;
+      font-family: comfortaa;
+  }
+  
+  a {
+      color: black;
+      text-transform: uppercase;
+      text-decoration: none;
+      letter-spacing: 0.15em;
+      
+      display: inline-block;
+      padding: 15px 20px;
+      position: relative;
+    }
+  
+  
+  a:after {    
+      background: none repeat scroll 0 0 transparent;
+      bottom: 0;
+      content: "";
+      display: block;
+      height: 2px;
+      left: 50%;
+      position: absolute;
+      background: black;
+      transition: width 0.3s ease 0s, left 0.3s ease 0s;
+      width: 0;
+    }
+    a:hover:after { 
+      width: 100%; 
+      left: 0; 
+    }
+  
+  
+    body {
+      font-family: sans-serif;
+      background-color: #FAE6EA;
+      margin: 0;
+      padding: 0;
+    }
+    
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      background-color: blue;
+    }
+    
+    .tns-outer{
+      position: relative;
+      margin-bottom: 25px;
+    }
+    
+    .tns-controls{
+      position: absolute;
+      top:50%;
+      left: 0;
+      right: 0;
+      z-index: 50;
+      outline:none;
+    }
+    
+    .tns-controls button:nth-last-of-type(1){
+      position: absolute;
+      right: 0;
+      background-color: indianred;
+    }
+  
+     .tns-controls button:nth-last-of-type(1){
+      position: absolute;
+      right: 0;
+      background-color: #FAE6EA;
+    }
+    
+    button{
+      padding: 5px;
+      font-size: 1.5rem;
+      background-color: #FAE6EA;
+      border: 5px solid black;
+      margin: 3vw;
+  
+    
+      
+    }
+    
+    .tns-nav-active{
+      background-color: #E5A5E8;
+    }
+    button:hover {
+      background-color: lightgoldenrodyellow;
+    }
+    
+    .tns-nav{
+      position: absolute;
+      bottom: -25px;
+      z-index: 50;
+      left: 50%;
+      width: auto;
+      transform: translateX(-50%);
+    }
+        
+  .may {
+    margin-left: 14.3vw;
+    margin-top: 15vh;
+  
+  }
+  
+  .june {
+    margin-left: 24.5vw;
+    margin-top: 15vh;
+  
+  }
+  
+  .july {
+    margin-left: 28vw;
+    margin-top: 15vh;
+  
+  }
+  
+  .august {
+    margin-left: 24.5vw;
+    margin-top: 15vh;
+  }
+  
+  .september {
+    margin-left: 21.3vw;
+    margin-top: 15vh;
+  
+  }
+  
+  .october {
+    margin-left: 28.5vw;
+    margin-top: 15vh;
+  
+  }
+  
+  .november {
+    margin-left: 28.5vw;
+    margin-top: 15vh;
+  
+  
+  }
+  
+  .december {
+    margin-left: 20.5vw;
+    margin-top: 15vh;
+  
+  }
+  
+  .january {
+    margin-left: 28.5vw;
+    margin-top: 15vh;
+  
+  }
+  
+  .february {
+    margin-left: 28.5vw;
+    margin-top: 15vh;
+  
+  }
+  
+  .march {
+    margin-left: 24.3vw;
+    margin-top: 15vh;
+  
+  }
+  
+  .april {
+    margin-left: 28.5vw;
+    margin-top: 15vh;
+  
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* ----------- TABLETS ----------- */
+ 
+@media only screen and (min-width: 800px) and (max-width: 1280px) {
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+  font-family: rochester;
+  font-size: 70px;
+  text-align: center;
+  position: fixed;
+  margin-top: -25vh;
+  margin-left: 40vw;
+  opacity: 100%;
+  color: black;
+}
+
+.palms {
+  height: 15vh;
+  margin-top: -13vh;
+  width: 100vw;
+  opacity: 60%;
+  position: fixed;
+}
+
+.top {
+  height: 20vh;
+  margin-top: 25vh;
+}
+
+.links {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding: 2vw;
+  grid-gap: -5px;
+  margin-top: -33vh;
+  text-align: center;
+  position: fixed;
+  width: 100vw;
+}
+
+.legs {
+  color: black;
+}
+
+.abs {
+  color: black;
+}
+
+.arms {
+  color: black;
+}
+
+.booty {
+  color: black;
+}
+
+.cardio {
+  color: black;
+}
+
+h2 {
+  text-align: center;
+  font-family: rochester;
+  font-size: 46px;
+  height: 50vh;
+  padding-top: 3vh;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: -15vh;
+  background-color: #FCF2F4;
+}
+
+h3 {
+  text-align: center;
+  margin-top: -45vh;
+  width: 60%;
+  margin-left: 20%;
+  line-height: 4vh;
+  margin-bottom: -9vh;
+  font-family: comfortaa;
+}
+
+a {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+
+
+a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: black;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+
+body {
+  font-family: sans-serif;
+  background-color: #FAE6EA;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  background-color: blue;
+}
+
+.tns-outer{
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.tns-controls{
+  position: absolute;
+  top:50%;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  outline:none;
+}
+
+.tns-controls button:nth-last-of-type(1){
+  position: absolute;
+  right: 0;
+  background-color: indianred;
+}
+
+ .tns-controls button:nth-last-of-type(1){
+  position: absolute;
+  right: 0;
+  background-color: #FAE6EA;
+}
+
+button{
+  padding: 5px;
+  font-size: 1.5rem;
+  background-color: #FAE6EA;
+  border: 5px solid black;
+  margin: 3vw;
+
+
+  
+}
+
+.tns-nav-active{
+  background-color: #E5A5E8;
+}
+button:hover {
+  background-color: lightgoldenrodyellow;
+}
+
+.tns-nav{
+  position: absolute;
+  bottom: -25px;
+  z-index: 50;
+  left: 50%;
+  width: auto;
+  transform: translateX(-50%);
+}
+    
+.may {
+margin-left: 14.3vw;
+margin-top: 15vh;
+
+}
+
+.june {
+margin-left: 24.5vw;
+margin-top: 15vh;
+
+}
+
+.july {
+margin-left: 28vw;
+margin-top: 15vh;
+
+}
+
+.august {
+margin-left: 24.5vw;
+margin-top: 15vh;
+}
+
+.september {
+margin-left: 21.3vw;
+margin-top: 15vh;
+
+}
+
+.october {
+margin-left: 28.5vw;
+margin-top: 15vh;
+
+}
+
+.november {
+margin-left: 28.5vw;
+margin-top: 15vh;
+
+
+}
+
+.december {
+margin-left: 20.5vw;
+margin-top: 15vh;
+
+}
+
+.january {
+margin-left: 28.5vw;
+margin-top: 15vh;
+
+}
+
+.february {
+margin-left: 28.5vw;
+margin-top: 15vh;
+
+}
+
+.march {
+margin-left: 24.3vw;
+margin-top: 15vh;
+
+}
+
+.april {
+margin-left: 28.5vw;
+margin-top: 15vh;
+
+}
